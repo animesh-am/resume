@@ -14,7 +14,7 @@ PAGE_TITLE = "DIGITAL RESUME | ANIMESH MAITY"
 PAGE_ICON = "🪁"
 NAME = "ANIMESH MAITY"
 DESCRIPTION = """
-Aspiring BCA graduate seeking a dynamic role at TCS to apply skills in active projects, with a keen
+Aspiring BCA graduate seeking a dynamic role to apply skills in active projects, with a keen
 interest in building a career in data"""
 EMAIL = "animesh.maity.iam@gmail.com"
 SOCIAL_MEDIA = {
