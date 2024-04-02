@@ -173,37 +173,6 @@ st.write(
         """
 )
 
-# ---CERTIFICATES---
-st.write("#")
-st.subheader("Certificates")
-st.write("---")
-
-# Certificate images and their corresponding URLs
-certificates = {
-    "CodeClause Certificate": {
-        "image_path": "assets/LOR.png",
-        "certificate_url": "https://drive.google.com/file/d/1wMmaRpquir8Drw9wtq4sNuLLrcylpXE4/view",
-    },
-    "Introduction to SQL": {
-        "image_path": "assets/sql.png",
-        "certificate_url": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxODExIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDkyMzE3NF8xNzA5NDg0ODg0LnBuZyIsInVzZXJuYW1lIjoiQW5pbWVzaCBNYWl0eSJ9&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4309%2FIntroduction-to-SQL%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1233044807294069764&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVT4tyNXM0zPH28kgCAITnU%2BElAAAA",
-    },
-    "The Fundamentals of Digital Marketing ": {
-        "image_path": "assets/digital.png",
-        "certificate_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_aTLEr9Wgk4MzgNL5N_1698815706298_completion_certificate.pdf",
-    },
-    "Data Science and Machine Learning": {
-        "image_path": "assets/dsml.png",
-        "certificate_url": "https://drive.google.com/file/d/1AFMCK_SrEJELFL1vgjOZIYniLrA6ojdY/view",
-    },
-}
-
-# Display certificate images with clickable links
-for certificate, urls in certificates.items():
-    image = Image.open(urls["image_path"])
-    st.image(image, caption=certificate, use_column_width=True)
-    st.markdown(f"[View Certificate]({urls['certificate_url']})")
-
 
 # ---PROJECTS & ACCOMPLISHMENTS---
 st.write("#")
@@ -224,6 +193,40 @@ st.write("- Comparative study of CNN architectures.")
 st.write("- \tDeveloping a deep learning model for leaf disease classification.")
 st.write("- Utilizing Python, Deep Learning, and Neural Networks.")
 
+# ---CERTIFICATES---
+st.write("#")
+st.subheader("Certificates")
+st.write("---")
+
+# Certificate images and their corresponding URLs
+certificates = {
+    "Deep Learning with Tensorflow": {
+        "image_path": "assets/dltf.png",
+        "certificate_url": "https://courses.cognitiveclass.ai/certificates/58c92b86a8a54f07b4116fee378e7f06",
+    },
+    "Introduction to SQL": {
+        "image_path": "assets/sql.png",
+        "certificate_url": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxODExIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDkyMzE3NF8xNzA5NDg0ODg0LnBuZyIsInVzZXJuYW1lIjoiQW5pbWVzaCBNYWl0eSJ9&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4309%2FIntroduction-to-SQL%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1233044807294069764&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVT4tyNXM0zPH28kgCAITnU%2BElAAAA",
+    },
+    "CodeClause Certificate": {
+        "image_path": "assets/LOR.png",
+        "certificate_url": "https://drive.google.com/file/d/1wMmaRpquir8Drw9wtq4sNuLLrcylpXE4/view",
+    },
+    "The Fundamentals of Digital Marketing ": {
+        "image_path": "assets/digital.png",
+        "certificate_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_aTLEr9Wgk4MzgNL5N_1698815706298_completion_certificate.pdf",
+    },
+    "Data Science and Machine Learning": {
+        "image_path": "assets/dsml.png",
+        "certificate_url": "https://drive.google.com/file/d/1AFMCK_SrEJELFL1vgjOZIYniLrA6ojdY/view",
+    },
+}
+
+# Display certificate images with clickable links
+for certificate, urls in certificates.items():
+    image = Image.open(urls["image_path"])
+    st.image(image, caption=certificate, use_column_width=True)
+    st.markdown(f"[View Certificate]({urls['certificate_url']})")
 
 
 # ---HOBBIES---
