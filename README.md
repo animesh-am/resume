@@ -24,7 +24,7 @@ This is a digital resume created using Streamlit. It showcases various sections 
 
 ## Live Demo
 
-Visit the live demo [here](https://digital-cv-5gyf.onrender.com/#animesh-maity).
+Click to [visit the Live Demo](https://digital-cv-5gyf.onrender.com/#animesh-maity).
 
 ## Screenshots
 
