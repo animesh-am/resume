@@ -32,6 +32,8 @@ Click to [visit the Live Demo](https://digital-cv-5gyf.onrender.com/#animesh-mai
 ![image](https://github.com/animesh-am/resume/assets/115914707/97a1f7d3-6bd0-43f1-8a3b-b08655592181)
 
 ![image](https://github.com/animesh-am/resume/assets/115914707/b4d6a4cc-6429-47ac-acd2-1c96c3f19c0b)
+![Uploading image.png…]()
+
 
 
 ## Contributing
