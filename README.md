@@ -28,7 +28,8 @@ Click to [visit the Live Demo](https://digital-cv-5gyf.onrender.com/#animesh-mai
 
 ## Screenshots
 
-Add screenshots of your application here if desired.
+![image](https://github.com/animesh-am/resume/assets/115914707/b4d6a4cc-6429-47ac-acd2-1c96c3f19c0b)
+
 
 ## Contributing
 
