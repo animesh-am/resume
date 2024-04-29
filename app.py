@@ -129,7 +129,7 @@ st.write(
         - 💻 Programming: C, Python(keras, tensorflow, flask, numpy), C++, MySQL, PHP, Java.
         - 💨 Modelling: Linear Regression, Binary Classification, Multiclass Classification.
         - 👨‍💻 Web Development: HTML, CSS, Javascript
-        - 🧬 Others: Colab, Jupyter Notebook, Github.
+        - 🧬 Others: Colab, Jupyter Notebook, Github, VS Code, Pycharm.
         """
 )
 
